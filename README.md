@@ -154,7 +154,17 @@ Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi a
 # Langkah ke 4 Pembuatan Formulir dan Tombol
 
 
+Kode HTML ini menunjukkan cara membuat **form input dan tombol (button)** yang terhubung dengan **fungsi JavaScript** untuk menampilkan hasil dari input pengguna.
+1. **Bagian JavaScript (dalam tag `<script>`)**
+   Fungsi `tampilkanNama()` digunakan untuk mengambil nilai dari input teks.
 
+   * Baris `let nama = document.getElementById("nama").value;` mengambil teks yang dimasukkan pengguna di kotak input dengan id `"nama"`.
+   * Lalu, `document.getElementById("hasil").innerHTML = "Halo, " + nama + "!";` menampilkan pesan sapaan pada elemen dengan id `"hasil"`.
 
+2. **Bagian Form HTML**
+   Di dalam tag `<form>`, terdapat label dan input teks untuk mengisi nama.
+   Tombol `<button>` memiliki atribut `onclick="tampilkanNama()"`, yang berarti ketika tombol diklik, fungsi JavaScript tersebut dijalankan.
 
+3. **Menampilkan Hasil**
+   Hasil output akan muncul di paragraf `<p id="hasil"></p>` setelah pengguna menekan tombol.
 
