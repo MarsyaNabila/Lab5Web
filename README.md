@@ -271,16 +271,71 @@ Kode ini digunakan untuk membuat **form registrasi** dengan **validasi menggunak
    * Pertama, program mengambil nilai dari input `nama`, `email`, dan `password` menggunakan `document.getElementById().value`.
    * Lalu dilakukan tiga jenis pemeriksaan (validasi):
 
-   * **Cek kolom kosong:** Jika ada kolom yang belum diisi, akan muncul pesan *“Semua kolom harus diisi!”*.
-   * **Cek format email:** Menggunakan pola regex (`polaEmail`) untuk memastikan email memiliki format yang benar, misalnya “[nama@domain.com](mailto:nama@domain.com)”. Jika salah, muncul pesan *“Format email tidak valid!”*.
-   * **Cek panjang password:** Jika password kurang dari 6 karakter, tampil pesan *“Password harus minimal 6 karakter!”*.
-   * Jika semua validasi lolos, muncul pesan *“Form berhasil dikirim!”* dan form akan dikirimkan.
+   * **Cek kolom kosong:** Jika ada kolom yang belum diisi, akan muncul pesan “Semua kolom harus diisi!”.
+   * **Cek format email:** Menggunakan pola regex (`polaEmail`) untuk memastikan email memiliki format yang benar, misalnya “[nama@domain.com](mailto:nama@domain.com)”. Jika salah, muncul pesan “Format email tidak valid!”.
+   * **Cek panjang password:** Jika password kurang dari 6 karakter, tampil pesan “Password harus minimal 6 karakter!”.
+   * Jika semua validasi lolos, muncul pesan “Form berhasil dikirim!” dan form akan dikirimkan.
 
 2. **Bagian Form HTML**
 
    * Form memiliki tiga input: `Nama`, `Email`, dan `Password`.
    * Atribut `onsubmit="return validasiForm()"` memastikan fungsi validasi dijalankan sebelum form dikirim. Jika ada kesalahan, form tidak akan dikirim.
    * Tombol “Kirim” digunakan untuk mengirim form setelah semua data valid.
+  
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validasi Form</title>
+    <script>
+        function validasiForm() {
+            let nama = document.getElementById("nama").value;
+            let email = document.getElementById("email").value;
+            let password = document.getElementById("password").value;
+
+            // Mengecek apakah kolom kosong
+            if (nama == "" || email == "" || password == "") {
+                alert("Semua kolom harus diisi!");
+                return false;
+            }
+
+            // Validasi format email
+            let polaEmail = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            if (!email.match(polaEmail)) {
+                alert("Format email tidak valid!");
+                return false;
+            }
+
+            // Validasi panjang password
+            if (password.length < 6) {
+                alert("Password harus minimal 6 karakter!");
+                return false;
+            }
+
+            alert("Form berhasil dikirim!");
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h2>Form Registrasi (Validasi dengan JavaScript)</h2>
+
+    <form onsubmit="return validasiForm()">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" placeholder="Masukkan nama kamu"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" placeholder="contoh@email.com"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" placeholder="Minimal 6 karakter"><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
+```
 
 
 
