@@ -19,3 +19,19 @@ Bagian penting dari kode ini adalah elemen `<script>`, yang digunakan untuk menu
 * `document.write("Hello World");` digunakan untuk menampilkan teks *“Hello World”* langsung pada halaman web.
 * `console.log("Hello World");` digunakan untuk menampilkan teks yang sama di **konsol browser**, biasanya terlihat melalui fitur *Inspect Element → Console*.
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mengenal JavaScript</title>
+</head>
+<body>
+    <h1>Pengenalan JavaScript</h1>
+    <h3>Contoh document.write dan console.log</h3>
+    <script>
+        document.write("Hello World");
+        console.log("Hello World");
+    </script>
+</body>
+</html>
+```
