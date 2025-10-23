@@ -100,15 +100,6 @@ Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi a
    Jika input tidak sesuai, program menampilkan “Grade tidak valid!”.
 
   ```html
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Dasar Pemrograman di JavaScript</title>
-</head>
-<body>
-    <h2>Dasar Pemrograman di JavaScript</h2>
-
     <script>
         // --- Operasi Aritmatika ---
         let a = 10;
