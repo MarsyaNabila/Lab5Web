@@ -8,7 +8,7 @@ Kelas: TI.24.A4
 
 # Langkah ke 1 Pengenalan Javascript
 
-Membuat dokumen HTML dengan nama file lab5_javascript.html
+Membuat dokumen HTML dengan nama file `lab5_javascript.html`
 
 Kode HTML di atas berfungsi untuk memperkenalkan dasar penggunaan **JavaScript** di dalam halaman web. Pada bagian `<head>`, terdapat elemen `<title>` yang menentukan judul halaman yaitu “Mengenal JavaScript”. Lalu di dalam `<body>`, terdapat judul utama `<h1>` yang bertuliskan “Pengenalan JavaScript” dan subjudul `<h3>` yang menjelaskan bahwa contoh yang ditampilkan adalah penggunaan **document.write** dan **console.log**.
 
@@ -37,7 +37,7 @@ Bagian penting dari kode ini adalah elemen `<script>`, yang digunakan untuk menu
 <img width="948" height="538" alt="Screenshot 2025-10-23 213434" src="https://github.com/user-attachments/assets/3bcdea43-789e-4ecf-a914-119bf9351991" />
 
 # Langkah ke 2 Javascript Dasar
-Membuat File baru HTML dengan nama dasar_javascript.html
+Membuat File baru HTML dengan nama `dasar_javascript.html`
 
 Kode HTML ini digunakan untuk memperkenalkan dasar-dasar **JavaScript** dengan beberapa contoh fungsinya. Pada bagian `<head>`, terdapat elemen `<meta charset="UTF-8">` untuk mendukung karakter UTF-8, dan `<title>` yang memberikan judul halaman “JavaScript Dasar”.
 
@@ -82,7 +82,7 @@ Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa con
 <img width="938" height="473" alt="Screenshot 2025-10-23 215701" src="https://github.com/user-attachments/assets/a7745c0b-5b97-4292-88f9-4edc02c7ece4" />
 
 # Langkah ke 3 Pemrograman Dasar di Javascript
-Membuat File baru HTML dengan nama dasar_pemrograman.html
+Membuat File baru HTML dengan nama `dasar_pemrograman.html`
 
 Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi aritmatika, percabangan `if...else`, dan `switch`.
 * **Operasi Aritmatika**
@@ -152,7 +152,7 @@ Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi a
 <img width="935" height="951" alt="Screenshot 2025-10-23 220913" src="https://github.com/user-attachments/assets/8ab23ff1-073f-4a00-8f29-68d4dfed353b" />
 
 # Langkah ke 4 Pembuatan Formulir dan Tombol
-Membuat File baru HTML dengan nama from_button.html
+Membuat File baru HTML dengan nama `from_button.html`
 
 
 Kode HTML ini menunjukkan cara membuat **form input dan tombol (button)** yang terhubung dengan **fungsi JavaScript** untuk menampilkan hasil dari input pengguna.
@@ -204,7 +204,7 @@ Kode HTML ini menunjukkan cara membuat **form input dan tombol (button)** yang t
 <img width="930" height="493" alt="Screenshot 2025-10-23 221703" src="https://github.com/user-attachments/assets/7497ccd6-6417-4bd6-979e-fbeb5e335d3e" />
 
 # Langkah ke 5 HTML DOM (Kotak Ceklis Otomatis)
-Membuat File baru HTML dengan nama checbox_total.html
+Membuat File baru HTML dengan nama `checbox_total.html`
 
 Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasarkan **checkbox** yang dipilih oleh pengguna menggunakan **JavaScript**.
 
