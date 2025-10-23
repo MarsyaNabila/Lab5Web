@@ -57,15 +57,6 @@ Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa con
 
 
   ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>JavaScript Dasar</title>
-</head>
-<body>
-    <h2>JavaScript Dasar</h2>
-
     <script>
         // Pemakaian Alert
         alert("Halo! Ini contoh penggunaan alert di JavaScript.");
