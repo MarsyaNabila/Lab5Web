@@ -220,7 +220,7 @@ Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasa
    * Elemen `<p id="total">` digunakan untuk menampilkan total harga akhir di halaman, yang akan berubah sesuai pilihan pengguna.
 
 
-``html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
