@@ -57,7 +57,7 @@ Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa con
 
 
   ```html
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -85,8 +85,5 @@ Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa con
     </script>
 </body>
 </html>
-```
-
-
 
 
