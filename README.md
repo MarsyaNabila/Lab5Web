@@ -35,3 +35,6 @@ Bagian penting dari kode ini adalah elemen `<script>`, yang digunakan untuk menu
 </body>
 </html>
 ```
+
+<img width="948" height="538" alt="Screenshot 2025-10-23 213434" src="https://github.com/user-attachments/assets/3bcdea43-789e-4ecf-a914-119bf9351991" />
+
