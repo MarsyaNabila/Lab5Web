@@ -84,22 +84,76 @@ Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa con
 
 # Langkah ke 3 Pemrograman Dasar di Javascript
 
-
-
 Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi aritmatika, percabangan `if...else`, dan `switch`.
 * **Operasi Aritmatika**
    Dua variabel didefinisikan: `a = 10` dan `b = 5`.
    Bagian ini menampilkan hasil dari berbagai operasi matematika seperti penjumlahan (`a + b`), pengurangan (`a - b`), perkalian (`a * b`), pembagian (`a / b`), dan sisa bagi (`a % b`) ke halaman web menggunakan `document.write()`.
 * **Seleksi Kondisi if...else**
    Program meminta pengguna memasukkan nilai ujian melalui `prompt()`.
-   Jika nilai lebih besar atau sama dengan 75, muncul pesan *“Selamat, kamu lulus”*.
-   Jika kurang dari itu, tampil pesan *“Maaf, kamu belum lulus”*.
+   Jika nilai lebih besar atau sama dengan 75, muncul pesan “Selamat, kamu lulus”.
+   Jika kurang dari itu, tampil pesan “Maaf, kamu belum lulus”.
    Ini menunjukkan cara penggunaan percabangan sederhana dalam JavaScript.
 * **Operator Switch**
-   Pengguna diminta memasukkan *grade* (A, B, C, atau D).
+   Pengguna diminta memasukkan grade (A, B, C, atau D).
    Berdasarkan input tersebut, program menampilkan pesan berbeda menggunakan `switch`.
-   Misalnya, jika pengguna memasukkan “A”, maka tampil pesan *“Nilai kamu sangat baik!”*.
-   Jika input tidak sesuai, program menampilkan *“Grade tidak valid!”*.
+   Misalnya, jika pengguna memasukkan “A”, maka tampil pesan “Nilai kamu sangat baik!”.
+   Jika input tidak sesuai, program menampilkan “Grade tidak valid!”.
+
+  ```html
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dasar Pemrograman di JavaScript</title>
+</head>
+<body>
+    <h2>Dasar Pemrograman di JavaScript</h2>
+
+    <script>
+        // --- Operasi Aritmatika ---
+        let a = 10;
+        let b = 5;
+
+        document.write("<h3>Operasi Aritmatika</h3>");
+        document.write("a = " + a + ", b = " + b + "<br>");
+        document.write("Penjumlahan (a + b) = " + (a + b) + "<br>");
+        document.write("Pengurangan (a - b) = " + (a - b) + "<br>");
+        document.write("Perkalian (a * b) = " + (a * b) + "<br>");
+        document.write("Pembagian (a / b) = " + (a / b) + "<br>");
+        document.write("Sisa bagi (a % b) = " + (a % b) + "<br><br>");
+
+        // --- Seleksi Kondisi if..else ---
+        document.write("<h3>Seleksi Kondisi if..else</h3>");
+        let nilai = prompt("Masukkan nilai ujianmu:");
+        if (nilai >= 75) {
+            document.write("Selamat, kamu lulus!<br>");
+        } else {
+            document.write("Maaf, kamu belum lulus.<br>");
+        }
+
+        // --- Operator Switch ---
+        document.write("<h3>Seleksi Kondisi switch</h3>");
+        let grade = prompt("Masukkan grade (A/B/C/D):");
+        switch (grade) {
+            case "A":
+                document.write("Nilai kamu sangat baik!<br>");
+                break;
+            case "B":
+                document.write("Nilai kamu baik.<br>");
+                break;
+            case "C":
+                document.write("Nilai kamu cukup.<br>");
+                break;
+            case "D":
+                document.write("Nilai kamu kurang.<br>");
+                break;
+            default:
+                document.write("Grade tidak valid!<br>");
+        }
+    </script>
+</body>
+</html>
+```
 
 
 
