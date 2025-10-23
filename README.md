@@ -143,8 +143,7 @@ Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi a
         }
     </script>
 </body>
-</html>
-```
+</html>    
 
 
 
