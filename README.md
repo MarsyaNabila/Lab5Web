@@ -206,7 +206,7 @@ Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasa
 
    * Variabel `total` diset ke 0 sebagai nilai awal.
    * Tiga elemen checkbox diambil menggunakan `document.getElementById()` dengan id `item1`, `item2`, dan `item3`.
-   * Setiap checkbox memiliki nilai harga masing-masing (Rp 10.000, Rp 8.000, dan Rp 12.000).
+   * Setiap checkbox memiliki nilai harga masing-masing (Rp 15.000, Rp `10.000, dan Rp 13.000).
    * Jika checkbox dipilih (`checked`), maka nilainya ditambahkan ke total menggunakan `parseInt()` untuk mengubah nilai teks menjadi angka.
    * Hasil akhirnya ditampilkan pada elemen dengan id `"total"` menggunakan `innerHTML`, dan `toLocaleString()` digunakan agar angka tampil dengan format ribuan.
 
@@ -249,15 +249,41 @@ Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasa
     <h2>Perhitungan Otomatis (Checkbox)</h2>
 
     <form>
-        <input type="checkbox" id="item1" value="10000" onclick="hitungTotal()"> Ayam Bakar (Rp 10.000)<br>
-        <input type="checkbox" id="item2" value="8000" onclick="hitungTotal()"> Bakso (Rp 8.000)<br>
-        <input type="checkbox" id="item3" value="12000" onclick="hitungTotal()"> Ketoprak (Rp 12.000)<br><br>
+        <input type="checkbox" id="item1" value="10000" onclick="hitungTotal()"> Ayam Bakar (Rp 15.000)<br>
+        <input type="checkbox" id="item2" value="8000" onclick="hitungTotal()"> Bakso (Rp 10.000)<br>
+        <input type="checkbox" id="item3" value="12000" onclick="hitungTotal()"> Ketoprak (Rp 13.000)<br><br>
     </form>
 
     <p id="total">Total harga: Rp 0</p>
 </body>
 </html>
 ```
+
+<img width="931" height="642" alt="Screenshot 2025-10-23 222922" src="https://github.com/user-attachments/assets/bdc04c52-ab2f-42c4-91aa-11165f395bb4" />
+
+<img width="936" height="626" alt="Screenshot 2025-10-23 222944" src="https://github.com/user-attachments/assets/821e2f75-5a6b-45b2-a62b-fbec0acd69b8" />
+
+# Langkah ke 6 Formulir Validasi
+Kode ini digunakan untuk membuat **form registrasi** dengan **validasi menggunakan JavaScript**, agar data yang dikirimkan oleh pengguna sesuai dengan aturan yang ditentukan.
+
+1. **Bagian Fungsi JavaScript (`validasiForm()`)**
+
+   * Pertama, program mengambil nilai dari input `nama`, `email`, dan `password` menggunakan `document.getElementById().value`.
+   * Lalu dilakukan tiga jenis pemeriksaan (validasi):
+
+   * **Cek kolom kosong:** Jika ada kolom yang belum diisi, akan muncul pesan *“Semua kolom harus diisi!”*.
+   * **Cek format email:** Menggunakan pola regex (`polaEmail`) untuk memastikan email memiliki format yang benar, misalnya “[nama@domain.com](mailto:nama@domain.com)”. Jika salah, muncul pesan *“Format email tidak valid!”*.
+   * **Cek panjang password:** Jika password kurang dari 6 karakter, tampil pesan *“Password harus minimal 6 karakter!”*.
+   * Jika semua validasi lolos, muncul pesan *“Form berhasil dikirim!”* dan form akan dikirimkan.
+
+2. **Bagian Form HTML**
+
+   * Form memiliki tiga input: `Nama`, `Email`, dan `Password`.
+   * Atribut `onsubmit="return validasiForm()"` memastikan fungsi validasi dijalankan sebelum form dikirim. Jika ada kesalahan, form tidak akan dikirim.
+   * Tombol “Kirim” digunakan untuk mengirim form setelah semua data valid.
+
+
+
 
 
 
