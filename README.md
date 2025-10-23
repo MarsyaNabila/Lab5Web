@@ -86,5 +86,20 @@ Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa con
 
 
 
+Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi aritmatika, percabangan `if...else`, dan `switch`.
+* **Operasi Aritmatika**
+   Dua variabel didefinisikan: `a = 10` dan `b = 5`.
+   Bagian ini menampilkan hasil dari berbagai operasi matematika seperti penjumlahan (`a + b`), pengurangan (`a - b`), perkalian (`a * b`), pembagian (`a / b`), dan sisa bagi (`a % b`) ke halaman web menggunakan `document.write()`.
+* **Seleksi Kondisi if...else**
+   Program meminta pengguna memasukkan nilai ujian melalui `prompt()`.
+   Jika nilai lebih besar atau sama dengan 75, muncul pesan *“Selamat, kamu lulus”*.
+   Jika kurang dari itu, tampil pesan *“Maaf, kamu belum lulus”*.
+   Ini menunjukkan cara penggunaan percabangan sederhana dalam JavaScript.
+* **Operator Switch**
+   Pengguna diminta memasukkan *grade* (A, B, C, atau D).
+   Berdasarkan input tersebut, program menampilkan pesan berbeda menggunakan `switch`.
+   Misalnya, jika pengguna memasukkan “A”, maka tampil pesan *“Nilai kamu sangat baik!”*.
+   Jika input tidak sesuai, program menampilkan *“Grade tidak valid!”*.
+
 
 
