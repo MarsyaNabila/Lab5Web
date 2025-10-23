@@ -263,7 +263,11 @@ Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasa
 
 <img width="936" height="626" alt="Screenshot 2025-10-23 222944" src="https://github.com/user-attachments/assets/821e2f75-5a6b-45b2-a62b-fbec0acd69b8" />
 
-# Langkah ke 6 Formulir Validasi
+# Pertanyaan dan Tugas
+
+<img width="718" height="111" alt="Screenshot 2025-10-23 223942" src="https://github.com/user-attachments/assets/0be75bd4-017c-453f-bf62-510ff7692e81" />
+
+
 Kode ini digunakan untuk membuat **form registrasi** dengan **validasi menggunakan JavaScript**, agar data yang dikirimkan oleh pengguna sesuai dengan aturan yang ditentukan.
 
 1. **Bagian Fungsi JavaScript (`validasiForm()`)**
@@ -336,6 +340,15 @@ Kode ini digunakan untuk membuat **form registrasi** dengan **validasi menggunak
 </body>
 </html>
 ```
+
+<img width="934" height="804" alt="Screenshot 2025-10-23 223638" src="https://github.com/user-attachments/assets/71fc6b86-4e4d-4f2c-a1db-e60cb93743e2" />
+
+<img width="932" height="641" alt="Screenshot 2025-10-23 223751" src="https://github.com/user-attachments/assets/17ede262-b812-49f7-92cc-10cbdd417fd1" />
+
+<img width="931" height="826" alt="Screenshot 2025-10-23 223803" src="https://github.com/user-attachments/assets/c65ca710-2559-4ac0-8a88-32a32c0f6a66" />
+
+
+
 
 
 
