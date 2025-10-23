@@ -14,8 +14,8 @@ Kode HTML di atas berfungsi untuk memperkenalkan dasar penggunaan **JavaScript**
 
 Bagian penting dari kode ini adalah elemen `<script>`, yang digunakan untuk menulis perintah JavaScript. Di dalamnya terdapat dua baris kode:
 
-* `document.write("Hello World");` digunakan untuk menampilkan teks *“Hello World”* langsung pada halaman web.
-* `console.log("Hello World");` digunakan untuk menampilkan teks yang sama di **konsol browser**, biasanya terlihat melalui fitur *Inspect Element - Console*.
+* `document.write("Hello World");` digunakan untuk menampilkan teks “Hello World” langsung pada halaman web.
+* `console.log("Hello World");` digunakan untuk menampilkan teks yang sama di **konsol browser**, biasanya terlihat melalui fitur Inspect Element - Consol*.
 
 ```html
 <!DOCTYPE html>
@@ -54,6 +54,37 @@ Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa con
 * **Memanggil Fungsi**
    Baris `let hasil = salam(nama);` memanggil fungsi `salam()` dengan memasukkan nilai dari variabel `nama`. Hasil dari fungsi tersebut disimpan dalam variabel `hasil`.
    Lalu `document.write(hasil);` digunakan untuk menampilkan hasil sapaan “Selamat datang, [nama]!” di halaman web.
+
+  ```html
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Dasar</title>
+</head>
+<body>
+    <h2>JavaScript Dasar</h2>
+
+    <script>
+        // Pemakaian Alert
+        alert("Halo! Ini contoh penggunaan alert di JavaScript.");
+
+        // Pemakaian Prompt
+        let nama = prompt("Siapa namamu?");
+        document.write("Halo, " + nama + "!<br>");
+
+        // Membuat fungsi
+        function salam(nama) {
+            return "Selamat datang, " + nama + "!";
+        }
+
+        // Memanggil fungsi
+        let hasil = salam(nama);
+        document.write(hasil);
+    </script>
+</body>
+</html>
+```
 
 
 
