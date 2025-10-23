@@ -273,6 +273,8 @@ Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasa
 
 <img width="718" height="111" alt="Screenshot 2025-10-23 223942" src="https://github.com/user-attachments/assets/0be75bd4-017c-453f-bf62-510ff7692e81" />
 
+# 1. Buat script untuk melakukan validasi pada isian form.
+
 
 Kode ini digunakan untuk membuat **form registrasi** dengan **validasi menggunakan JavaScript**, agar data yang dikirimkan oleh pengguna sesuai dengan aturan yang ditentukan.
 
