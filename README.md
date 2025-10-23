@@ -79,6 +79,7 @@ Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa con
 
 <img width="933" height="1006" alt="Screenshot 2025-10-23 215637" src="https://github.com/user-attachments/assets/19b590ce-eef8-4664-90bc-97d50df9ce8c" />
 
+
 <img width="938" height="473" alt="Screenshot 2025-10-23 215701" src="https://github.com/user-attachments/assets/a7745c0b-5b97-4292-88f9-4edc02c7ece4" />
 
 # Langkah ke 3 Pemrograman Dasar di Javascript
