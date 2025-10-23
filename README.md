@@ -37,9 +37,6 @@ Bagian penting dari kode ini adalah elemen `<script>`, yang digunakan untuk menu
 <img width="948" height="538" alt="Screenshot 2025-10-23 213434" src="https://github.com/user-attachments/assets/3bcdea43-789e-4ecf-a914-119bf9351991" />
 
 # Langkah ke 2 Javascript Dasar
-
-Berikut penjelasan dari kode pada gambar tersebut:
-
 Kode HTML ini digunakan untuk memperkenalkan dasar-dasar **JavaScript** dengan beberapa contoh fungsinya. Pada bagian `<head>`, terdapat elemen `<meta charset="UTF-8">` untuk mendukung karakter UTF-8, dan `<title>` yang memberikan judul halaman “JavaScript Dasar”.
 
 Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa contoh penggunaan JavaScript:
@@ -167,4 +164,34 @@ Kode HTML ini menunjukkan cara membuat **form input dan tombol (button)** yang t
 
 3. **Menampilkan Hasil**
    Hasil output akan muncul di paragraf `<p id="hasil"></p>` setelah pengguna menekan tombol.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pembuatan Form dan Button</title>
+    <script>
+        // Fungsi untuk menampilkan hasil input
+        function tampilkanNama() {
+            let nama = document.getElementById("nama").value;
+            document.getElementById("hasil").innerHTML = "Halo, " + nama + "!";
+        }
+    </script>
+</head>
+<body>
+    <h2>Form Input dan Button</h2>
+
+    <!-- Form Input -->
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" placeholder="Masukkan nama kamu">
+        <button type="button" onclick="tampilkanNama()">Tampilkan</button>
+    </form>
+
+    <!-- Hasil tampil di sini -->
+    <p id="hasil"></p>
+</body>
+</html>
+```
 
