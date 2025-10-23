@@ -55,6 +55,7 @@ Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa con
    Baris `let hasil = salam(nama);` memanggil fungsi `salam()` dengan memasukkan nilai dari variabel `nama`. Hasil dari fungsi tersebut disimpan dalam variabel `hasil`.
    Lalu `document.write(hasil);` digunakan untuk menampilkan hasil sapaan “Selamat datang, [nama]!” di halaman web.
 
+
   ```html
   <!DOCTYPE html>
 <html lang="en">
