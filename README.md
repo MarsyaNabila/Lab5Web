@@ -6,7 +6,7 @@ NIM: 312410338
 
 Kelas: TI.24.A4
 
-## Langkah 1 Pengenalan Javascript
+# Langkah ke 1 Pengenalan Javascript
 
 Membuat dokumen HTML dengan nama file lab5_javascript.html
 
@@ -35,4 +35,26 @@ Bagian penting dari kode ini adalah elemen `<script>`, yang digunakan untuk menu
 ```
 
 <img width="948" height="538" alt="Screenshot 2025-10-23 213434" src="https://github.com/user-attachments/assets/3bcdea43-789e-4ecf-a914-119bf9351991" />
+
+# Langkah ke 2 Javascript Dasar
+
+Berikut penjelasan dari kode pada gambar tersebut:
+
+Kode HTML ini digunakan untuk memperkenalkan dasar-dasar **JavaScript** dengan beberapa contoh fungsinya. Pada bagian `<head>`, terdapat elemen `<meta charset="UTF-8">` untuk mendukung karakter UTF-8, dan `<title>` yang memberikan judul halaman “JavaScript Dasar”.
+
+Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa contoh penggunaan JavaScript:
+
+* **Pemakaian Alert**
+   Baris `alert("Halo! Ini contoh penggunaan alert di JavaScript.");` menampilkan jendela pop-up (kotak peringatan) di browser yang berisi pesan teks. Fungsi ini berguna untuk memberi informasi singkat kepada pengguna.
+* **Pemakaian Prompt**
+   Baris `let nama = prompt("Siapa namamu?");` akan menampilkan kotak dialog yang meminta pengguna untuk memasukkan nama. Hasil input pengguna disimpan dalam variabel `nama`.
+   Setelah itu, `document.write("Halo, " + nama + "!<br>");` menampilkan sapaan langsung pada halaman web sesuai dengan nama yang dimasukkan.
+* **Membuat Fungsi**
+   Kode `function salam(nama) { return "Selamat datang, " + nama + "!"; }` mendefinisikan sebuah fungsi bernama `salam` yang menerima satu parameter, yaitu `nama`. Fungsi ini mengembalikan (return) kalimat sapaan yang disesuaikan dengan nama pengguna.
+* **Memanggil Fungsi**
+   Baris `let hasil = salam(nama);` memanggil fungsi `salam()` dengan memasukkan nilai dari variabel `nama`. Hasil dari fungsi tersebut disimpan dalam variabel `hasil`.
+   Lalu `document.write(hasil);` digunakan untuk menampilkan hasil sapaan “Selamat datang, [nama]!” di halaman web.
+
+
+
 
