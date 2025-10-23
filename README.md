@@ -219,7 +219,6 @@ Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasa
 
    * Elemen `<p id="total">` digunakan untuk menampilkan total harga akhir di halaman, yang akan berubah sesuai pilihan pengguna.
 
-Secara keseluruhan, kode ini menunjukkan cara membuat sistem perhitungan otomatis sederhana menggunakan **checkbox dan JavaScript** untuk menampilkan total harga secara interaktif.
 
 ``html
 <!DOCTYPE html>
