@@ -195,3 +195,73 @@ Kode HTML ini menunjukkan cara membuat **form input dan tombol (button)** yang t
 </html>
 ```
 
+<img width="939" height="565" alt="Screenshot 2025-10-23 221640" src="https://github.com/user-attachments/assets/bf3c5e5f-a1f7-45ae-9312-5ccb3583e3cb" />
+
+<img width="930" height="493" alt="Screenshot 2025-10-23 221703" src="https://github.com/user-attachments/assets/7497ccd6-6417-4bd6-979e-fbeb5e335d3e" />
+
+# Langkah ke 5 HTML DOM (Kotak Ceklis Otomatis)
+Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasarkan **checkbox** yang dipilih oleh pengguna menggunakan **JavaScript**.
+
+1. **Bagian JavaScript (fungsi `hitungTotal()`)**
+
+   * Variabel `total` diset ke 0 sebagai nilai awal.
+   * Tiga elemen checkbox diambil menggunakan `document.getElementById()` dengan id `item1`, `item2`, dan `item3`.
+   * Setiap checkbox memiliki nilai harga masing-masing (Rp 10.000, Rp 8.000, dan Rp 12.000).
+   * Jika checkbox dipilih (`checked`), maka nilainya ditambahkan ke total menggunakan `parseInt()` untuk mengubah nilai teks menjadi angka.
+   * Hasil akhirnya ditampilkan pada elemen dengan id `"total"` menggunakan `innerHTML`, dan `toLocaleString()` digunakan agar angka tampil dengan format ribuan.
+
+2. **Bagian Form HTML**
+
+   * Terdapat tiga checkbox yang mewakili menu makanan: Ayam Bakar, Bakso, dan Ketoprak.
+   * Setiap checkbox memiliki event `onclick="hitungTotal()"`, sehingga saat pengguna mencentang atau menghapus centang, total harga otomatis diperbarui.
+
+3. **Menampilkan Hasil Total**
+
+   * Elemen `<p id="total">` digunakan untuk menampilkan total harga akhir di halaman, yang akan berubah sesuai pilihan pengguna.
+
+Secara keseluruhan, kode ini menunjukkan cara membuat sistem perhitungan otomatis sederhana menggunakan **checkbox dan JavaScript** untuk menampilkan total harga secara interaktif.
+
+``html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perhitungan Otomatis dengan Checkbox</title>
+    <script>
+        function hitungTotal() {
+            let total = 0;
+
+            // Ambil semua checkbox
+            let item1 = document.getElementById("item1");
+            let item2 = document.getElementById("item2");
+            let item3 = document.getElementById("item3");
+
+            // Cek apakah dipilih
+            if (item1.checked) total += parseInt(item1.value);
+            if (item2.checked) total += parseInt(item2.value);
+            if (item3.checked) total += parseInt(item3.value);
+
+            // Tampilkan hasil
+            document.getElementById("total").innerHTML = "Total harga: Rp " + total.toLocaleString();
+        }
+    </script>
+</head>
+<body>
+    <h2>Perhitungan Otomatis (Checkbox)</h2>
+
+    <form>
+        <input type="checkbox" id="item1" value="10000" onclick="hitungTotal()"> Ayam Bakar (Rp 10.000)<br>
+        <input type="checkbox" id="item2" value="8000" onclick="hitungTotal()"> Bakso (Rp 8.000)<br>
+        <input type="checkbox" id="item3" value="12000" onclick="hitungTotal()"> Ketoprak (Rp 12.000)<br><br>
+    </form>
+
+    <p id="total">Total harga: Rp 0</p>
+</body>
+</html>
+```
+
+
+
+
+
+
