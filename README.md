@@ -8,9 +8,7 @@ Kelas: TI.24.A4
 
 ## Langkah 1 Pengenalan Javascript
 
-membuat dokumen HTML dengan nama file lab5_javascript.html
-
-Berikut penjelasan dari codingan pada gambar tersebut:
+Membuat dokumen HTML dengan nama file lab5_javascript.html
 
 Kode HTML di atas berfungsi untuk memperkenalkan dasar penggunaan **JavaScript** di dalam halaman web. Pada bagian `<head>`, terdapat elemen `<title>` yang menentukan judul halaman yaitu *“Mengenal JavaScript”*. Lalu di dalam `<body>`, terdapat judul utama `<h1>` yang bertuliskan *“Pengenalan JavaScript”* dan subjudul `<h3>` yang menjelaskan bahwa contoh yang ditampilkan adalah penggunaan **document.write** dan **console.log**.
 
