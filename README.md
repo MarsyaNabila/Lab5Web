@@ -1,4 +1,4 @@
-# Lab5Web - Javascript
+# Lab5Web - Pratikum Javascript
 
 Nama: Marsya Nabila Putri
 
@@ -9,13 +9,6 @@ Kelas: TI.24.A4
 # Langkah ke 1 Pengenalan Javascript
 
 Membuat dokumen HTML dengan nama file `lab5_javascript.html`
-
-Kode HTML di atas berfungsi untuk memperkenalkan dasar penggunaan **JavaScript** di dalam halaman web. Pada bagian `<head>`, terdapat elemen `<title>` yang menentukan judul halaman yaitu “Mengenal JavaScript”. Lalu di dalam `<body>`, terdapat judul utama `<h1>` yang bertuliskan “Pengenalan JavaScript” dan subjudul `<h3>` yang menjelaskan bahwa contoh yang ditampilkan adalah penggunaan **document.write** dan **console.log**.
-
-Bagian penting dari kode ini adalah elemen `<script>`, yang digunakan untuk menulis perintah JavaScript. Di dalamnya terdapat dua baris kode:
-
-* `document.write("Hello World");` digunakan untuk menampilkan teks “Hello World” langsung pada halaman web.
-* `console.log("Hello World");` digunakan untuk menampilkan teks yang sama di **konsol browser**, biasanya terlihat melalui fitur Inspect Element - Consol*.
 
 ```html
 <!DOCTYPE html>
@@ -34,26 +27,19 @@ Bagian penting dari kode ini adalah elemen `<script>`, yang digunakan untuk menu
 </html>
 ```
 
+Kode HTML di atas berfungsi untuk memperkenalkan dasar penggunaan **JavaScript** di dalam halaman web. Pada bagian `<head>`, terdapat elemen `<title>` yang menentukan judul halaman yaitu “Mengenal JavaScript”. Lalu di dalam `<body>`, terdapat judul utama `<h1>` yang bertuliskan “Pengenalan JavaScript” dan subjudul `<h3>` yang menjelaskan bahwa contoh yang ditampilkan adalah penggunaan **document.write** dan **console.log**.
+
+Bagian penting dari kode ini adalah elemen `<script>`, yang digunakan untuk menulis perintah JavaScript. Di dalamnya terdapat dua baris kode:
+
+* `document.write("Hello World");` digunakan untuk menampilkan teks “Hello World” langsung pada halaman web.
+* `console.log("Hello World");` digunakan untuk menampilkan teks yang sama di **konsol browser**, biasanya terlihat melalui fitur Inspect Element - Consol*.
+
+Hasil di browser: 
+
 <img width="948" height="538" alt="Screenshot 2025-10-23 213434" src="https://github.com/user-attachments/assets/3bcdea43-789e-4ecf-a914-119bf9351991" />
 
 # Langkah ke 2 Javascript Dasar
 Membuat File baru HTML dengan nama `dasar_javascript.html`
-
-Kode HTML ini digunakan untuk memperkenalkan dasar-dasar **JavaScript** dengan beberapa contoh fungsinya. Pada bagian `<head>`, terdapat elemen `<meta charset="UTF-8">` untuk mendukung karakter UTF-8, dan `<title>` yang memberikan judul halaman “JavaScript Dasar”.
-
-Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa contoh penggunaan JavaScript:
-
-* **Pemakaian Alert**
-   Baris `alert("Halo! Ini contoh penggunaan alert di JavaScript.");` menampilkan jendela pop-up (kotak peringatan) di browser yang berisi pesan teks. Fungsi ini berguna untuk memberi informasi singkat kepada pengguna.
-* **Pemakaian Prompt**
-   Baris `let nama = prompt("Siapa namamu?");` akan menampilkan kotak dialog yang meminta pengguna untuk memasukkan nama. Hasil input pengguna disimpan dalam variabel `nama`.
-   Setelah itu, `document.write("Halo, " + nama + "!<br>");` menampilkan sapaan langsung pada halaman web sesuai dengan nama yang dimasukkan.
-* **Membuat Fungsi**
-   Kode `function salam(nama) { return "Selamat datang, " + nama + "!"; }` mendefinisikan sebuah fungsi bernama `salam` yang menerima satu parameter, yaitu `nama`. Fungsi ini mengembalikan (return) kalimat sapaan yang disesuaikan dengan nama pengguna.
-* **Memanggil Fungsi**
-   Baris `let hasil = salam(nama);` memanggil fungsi `salam()` dengan memasukkan nilai dari variabel `nama`. Hasil dari fungsi tersebut disimpan dalam variabel `hasil`.
-   Lalu `document.write(hasil);` digunakan untuk menampilkan hasil sapaan “Selamat datang, [nama]!” di halaman web.
-
 
   ```html
     <script>
@@ -76,6 +62,24 @@ Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa con
 </body>
 </html>
 
+Kode HTML ini digunakan untuk memperkenalkan dasar-dasar **JavaScript** dengan beberapa contoh fungsinya. Pada bagian `<head>`, terdapat elemen `<meta charset="UTF-8">` untuk mendukung karakter UTF-8, dan `<title>` yang memberikan judul halaman “JavaScript Dasar”.
+
+Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa contoh penggunaan JavaScript:
+
+* **Pemakaian Alert**
+   Baris `alert("Halo! Ini contoh penggunaan alert di JavaScript.");` menampilkan jendela pop-up (kotak peringatan) di browser yang berisi pesan teks. Fungsi ini berguna untuk memberi informasi singkat kepada pengguna.
+* **Pemakaian Prompt**
+   Baris `let nama = prompt("Siapa namamu?");` akan menampilkan kotak dialog yang meminta pengguna untuk memasukkan nama. Hasil input pengguna disimpan dalam variabel `nama`.
+   Setelah itu, `document.write("Halo, " + nama + "!<br>");` menampilkan sapaan langsung pada halaman web sesuai dengan nama yang dimasukkan.
+* **Membuat Fungsi**
+   Kode `function salam(nama) { return "Selamat datang, " + nama + "!"; }` mendefinisikan sebuah fungsi bernama `salam` yang menerima satu parameter, yaitu `nama`. Fungsi ini mengembalikan (return) kalimat sapaan yang disesuaikan dengan nama pengguna.
+* **Memanggil Fungsi**
+   Baris `let hasil = salam(nama);` memanggil fungsi `salam()` dengan memasukkan nilai dari variabel `nama`. Hasil dari fungsi tersebut disimpan dalam variabel `hasil`.
+   Lalu `document.write(hasil);` digunakan untuk menampilkan hasil sapaan “Selamat datang, [nama]!” di halaman web.
+
+
+Hasil di browser: 
+
 <img width="933" height="1006" alt="Screenshot 2025-10-23 215637" src="https://github.com/user-attachments/assets/19b590ce-eef8-4664-90bc-97d50df9ce8c" />
 
 
@@ -83,21 +87,6 @@ Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa con
 
 # Langkah ke 3 Pemrograman Dasar di Javascript
 Membuat File baru HTML dengan nama `dasar_pemrograman.html`
-
-Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi aritmatika, percabangan `if...else`, dan `switch`.
-* **Operasi Aritmatika**
-   Dua variabel didefinisikan: `a = 10` dan `b = 5`.
-   Bagian ini menampilkan hasil dari berbagai operasi matematika seperti penjumlahan (`a + b`), pengurangan (`a - b`), perkalian (`a * b`), pembagian (`a / b`), dan sisa bagi (`a % b`) ke halaman web menggunakan `document.write()`.
-* **Seleksi Kondisi if...else**
-   Program meminta pengguna memasukkan nilai ujian melalui `prompt()`.
-   Jika nilai lebih besar atau sama dengan 75, muncul pesan “Selamat, kamu lulus”.
-   Jika kurang dari itu, tampil pesan “Maaf, kamu belum lulus”.
-   Ini menunjukkan cara penggunaan percabangan sederhana dalam JavaScript.
-* **Operator Switch**
-   Pengguna diminta memasukkan grade (A, B, C, atau D).
-   Berdasarkan input tersebut, program menampilkan pesan berbeda menggunakan `switch`.
-   Misalnya, jika pengguna memasukkan “A”, maka tampil pesan “Nilai kamu sangat baik!”.
-   Jika input tidak sesuai, program menampilkan “Grade tidak valid!”.
 
   ```html
     <script>
@@ -143,7 +132,25 @@ Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi a
         }
     </script>
 </body>
-</html>    
+</html>
+
+Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi aritmatika, percabangan `if...else`, dan `switch`.
+* **Operasi Aritmatika**
+   Dua variabel didefinisikan: `a = 10` dan `b = 5`.
+   Bagian ini menampilkan hasil dari berbagai operasi matematika seperti penjumlahan (`a + b`), pengurangan (`a - b`), perkalian (`a * b`), pembagian (`a / b`), dan sisa bagi (`a % b`) ke halaman web menggunakan `document.write()`.
+* **Seleksi Kondisi if...else**
+   Program meminta pengguna memasukkan nilai ujian melalui `prompt()`.
+   Jika nilai lebih besar atau sama dengan 75, muncul pesan “Selamat, kamu lulus”.
+   Jika kurang dari itu, tampil pesan “Maaf, kamu belum lulus”.
+   Ini menunjukkan cara penggunaan percabangan sederhana dalam JavaScript.
+* **Operator Switch**
+   Pengguna diminta memasukkan grade (A, B, C, atau D).
+   Berdasarkan input tersebut, program menampilkan pesan berbeda menggunakan `switch`.
+   Misalnya, jika pengguna memasukkan “A”, maka tampil pesan “Nilai kamu sangat baik!”.
+   Jika input tidak sesuai, program menampilkan “Grade tidak valid!”.
+
+
+Hasil di browser: 
 
 <img width="935" height="957" alt="Screenshot 2025-10-23 220829" src="https://github.com/user-attachments/assets/350d6ffb-6752-47b8-84e9-6118b4912f16" />
 
@@ -153,21 +160,6 @@ Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi a
 
 # Langkah ke 4 Pembuatan Formulir dan Tombol
 Membuat File baru HTML dengan nama `from_button.html`
-
-
-Kode HTML ini menunjukkan cara membuat **form input dan tombol (button)** yang terhubung dengan **fungsi JavaScript** untuk menampilkan hasil dari input pengguna.
-1. **Bagian JavaScript (dalam tag `<script>`)**
-   Fungsi `tampilkanNama()` digunakan untuk mengambil nilai dari input teks.
-
-   * Baris `let nama = document.getElementById("nama").value;` mengambil teks yang dimasukkan pengguna di kotak input dengan id `"nama"`.
-   * Lalu, `document.getElementById("hasil").innerHTML = "Halo, " + nama + "!";` menampilkan pesan sapaan pada elemen dengan id `"hasil"`.
-
-2. **Bagian Form HTML**
-   Di dalam tag `<form>`, terdapat label dan input teks untuk mengisi nama.
-   Tombol `<button>` memiliki atribut `onclick="tampilkanNama()"`, yang berarti ketika tombol diklik, fungsi JavaScript tersebut dijalankan.
-
-3. **Menampilkan Hasil**
-   Hasil output akan muncul di paragraf `<p id="hasil"></p>` setelah pengguna menekan tombol.
 
 ```html
 <!DOCTYPE html>
@@ -199,31 +191,28 @@ Kode HTML ini menunjukkan cara membuat **form input dan tombol (button)** yang t
 </html>
 ```
 
+Kode HTML ini menunjukkan cara membuat **form input dan tombol (button)** yang terhubung dengan **fungsi JavaScript** untuk menampilkan hasil dari input pengguna.
+1. **Bagian JavaScript (dalam tag `<script>`)**
+   Fungsi `tampilkanNama()` digunakan untuk mengambil nilai dari input teks.
+
+   * Baris `let nama = document.getElementById("nama").value;` mengambil teks yang dimasukkan pengguna di kotak input dengan id `"nama"`.
+   * Lalu, `document.getElementById("hasil").innerHTML = "Halo, " + nama + "!";` menampilkan pesan sapaan pada elemen dengan id `"hasil"`.
+
+2. **Bagian Form HTML**
+   Di dalam tag `<form>`, terdapat label dan input teks untuk mengisi nama.
+   Tombol `<button>` memiliki atribut `onclick="tampilkanNama()"`, yang berarti ketika tombol diklik, fungsi JavaScript tersebut dijalankan.
+
+3. **Menampilkan Hasil**
+   Hasil output akan muncul di paragraf `<p id="hasil"></p>` setelah pengguna menekan tombol.
+
+Hasil di browser:  
+
 <img width="939" height="565" alt="Screenshot 2025-10-23 221640" src="https://github.com/user-attachments/assets/bf3c5e5f-a1f7-45ae-9312-5ccb3583e3cb" />
 
 <img width="930" height="493" alt="Screenshot 2025-10-23 221703" src="https://github.com/user-attachments/assets/7497ccd6-6417-4bd6-979e-fbeb5e335d3e" />
 
 # Langkah ke 5 HTML DOM (Kotak Ceklis Otomatis)
 Membuat File baru HTML dengan nama `checbox_total.html`
-
-Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasarkan **checkbox** yang dipilih oleh pengguna menggunakan **JavaScript**.
-
-1. **Bagian JavaScript (fungsi `hitungTotal()`)**
-
-   * Variabel `total` diset ke 0 sebagai nilai awal.
-   * Tiga elemen checkbox diambil menggunakan `document.getElementById()` dengan id `item1`, `item2`, dan `item3`.
-   * Setiap checkbox memiliki nilai harga masing-masing (Rp 15.000, Rp `10.000, dan Rp 13.000).
-   * Jika checkbox dipilih (`checked`), maka nilainya ditambahkan ke total menggunakan `parseInt()` untuk mengubah nilai teks menjadi angka.
-   * Hasil akhirnya ditampilkan pada elemen dengan id `"total"` menggunakan `innerHTML`, dan `toLocaleString()` digunakan agar angka tampil dengan format ribuan.
-
-2. **Bagian Form HTML**
-
-   * Terdapat tiga checkbox yang mewakili menu makanan: Ayam Bakar, Bakso, dan Ketoprak.
-   * Setiap checkbox memiliki event `onclick="hitungTotal()"`, sehingga saat pengguna mencentang atau menghapus centang, total harga otomatis diperbarui.
-
-3. **Menampilkan Hasil Total**
-
-   * Elemen `<p id="total">` digunakan untuk menampilkan total harga akhir di halaman, yang akan berubah sesuai pilihan pengguna.
 
 
 ```html
@@ -265,6 +254,28 @@ Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasa
 </html>
 ```
 
+Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasarkan **checkbox** yang dipilih oleh pengguna menggunakan **JavaScript**.
+
+1. **Bagian JavaScript (fungsi `hitungTotal()`)**
+
+   * Variabel `total` diset ke 0 sebagai nilai awal.
+   * Tiga elemen checkbox diambil menggunakan `document.getElementById()` dengan id `item1`, `item2`, dan `item3`.
+   * Setiap checkbox memiliki nilai harga masing-masing (Rp 15.000, Rp `10.000, dan Rp 13.000).
+   * Jika checkbox dipilih (`checked`), maka nilainya ditambahkan ke total menggunakan `parseInt()` untuk mengubah nilai teks menjadi angka.
+   * Hasil akhirnya ditampilkan pada elemen dengan id `"total"` menggunakan `innerHTML`, dan `toLocaleString()` digunakan agar angka tampil dengan format ribuan.
+
+2. **Bagian Form HTML**
+
+   * Terdapat tiga checkbox yang mewakili menu makanan: Ayam Bakar, Bakso, dan Ketoprak.
+   * Setiap checkbox memiliki event `onclick="hitungTotal()"`, sehingga saat pengguna mencentang atau menghapus centang, total harga otomatis diperbarui.
+
+3. **Menampilkan Hasil Total**
+
+   * Elemen `<p id="total">` digunakan untuk menampilkan total harga akhir di halaman, yang akan berubah sesuai pilihan pengguna.
+
+     
+Hasil di browser:  
+
 <img width="931" height="642" alt="Screenshot 2025-10-23 222922" src="https://github.com/user-attachments/assets/bdc04c52-ab2f-42c4-91aa-11165f395bb4" />
 
 <img width="936" height="626" alt="Screenshot 2025-10-23 222944" src="https://github.com/user-attachments/assets/821e2f75-5a6b-45b2-a62b-fbec0acd69b8" />
@@ -274,25 +285,6 @@ Kode HTML ini berfungsi untuk menghitung **total harga secara otomatis** berdasa
 <img width="718" height="111" alt="Screenshot 2025-10-23 223942" src="https://github.com/user-attachments/assets/0be75bd4-017c-453f-bf62-510ff7692e81" />
 
 # 1. Buat script untuk melakukan validasi pada isian form.
-
-
-Kode ini digunakan untuk membuat **form registrasi** dengan **validasi menggunakan JavaScript**, agar data yang dikirimkan oleh pengguna sesuai dengan aturan yang ditentukan.
-
-1. **Bagian Fungsi JavaScript (`validasiForm()`)**
-
-   * Pertama, program mengambil nilai dari input `nama`, `email`, dan `password` menggunakan `document.getElementById().value`.
-   * Lalu dilakukan tiga jenis pemeriksaan (validasi):
-
-   * **Cek kolom kosong:** Jika ada kolom yang belum diisi, akan muncul pesan “Semua kolom harus diisi!”.
-   * **Cek format email:** Menggunakan pola regex (`polaEmail`) untuk memastikan email memiliki format yang benar, misalnya “[nama@domain.com](mailto:nama@domain.com)”. Jika salah, muncul pesan “Format email tidak valid!”.
-   * **Cek panjang password:** Jika password kurang dari 6 karakter, tampil pesan “Password harus minimal 6 karakter!”.
-   * Jika semua validasi lolos, muncul pesan “Form berhasil dikirim!” dan form akan dikirimkan.
-
-2. **Bagian Form HTML**
-
-   * Form memiliki tiga input: `Nama`, `Email`, dan `Password`.
-   * Atribut `onsubmit="return validasiForm()"` memastikan fungsi validasi dijalankan sebelum form dikirim. Jika ada kesalahan, form tidak akan dikirim.
-   * Tombol “Kirim” digunakan untuk mengirim form setelah semua data valid.
   
 ```html
 <!DOCTYPE html>
@@ -348,6 +340,26 @@ Kode ini digunakan untuk membuat **form registrasi** dengan **validasi menggunak
 </body>
 </html>
 ```
+
+Kode ini digunakan untuk membuat **form registrasi** dengan **validasi menggunakan JavaScript**, agar data yang dikirimkan oleh pengguna sesuai dengan aturan yang ditentukan.
+
+1. **Bagian Fungsi JavaScript (`validasiForm()`)**
+
+   * Pertama, program mengambil nilai dari input `nama`, `email`, dan `password` menggunakan `document.getElementById().value`.
+   * Lalu dilakukan tiga jenis pemeriksaan (validasi):
+
+   * **Cek kolom kosong:** Jika ada kolom yang belum diisi, akan muncul pesan “Semua kolom harus diisi!”.
+   * **Cek format email:** Menggunakan pola regex (`polaEmail`) untuk memastikan email memiliki format yang benar, misalnya “[nama@domain.com](mailto:nama@domain.com)”. Jika salah, muncul pesan “Format email tidak valid!”.
+   * **Cek panjang password:** Jika password kurang dari 6 karakter, tampil pesan “Password harus minimal 6 karakter!”.
+   * Jika semua validasi lolos, muncul pesan “Form berhasil dikirim!” dan form akan dikirimkan.
+
+2. **Bagian Form HTML**
+
+   * Form memiliki tiga input: `Nama`, `Email`, dan `Password`.
+   * Atribut `onsubmit="return validasiForm()"` memastikan fungsi validasi dijalankan sebelum form dikirim. Jika ada kesalahan, form tidak akan dikirim.
+   * Tombol “Kirim” digunakan untuk mengirim form setelah semua data valid.
+
+Hasil di browser: 
 
 <img width="934" height="804" alt="Screenshot 2025-10-23 223638" src="https://github.com/user-attachments/assets/71fc6b86-4e4d-4f2c-a1db-e60cb93743e2" />
 
