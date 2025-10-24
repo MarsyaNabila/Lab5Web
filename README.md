@@ -133,6 +133,7 @@ Membuat File baru HTML dengan nama `dasar_pemrograman.html`
     </script>
 </body>
 </html>
+```
 
 Kode HTML ini berisi contoh dasar **pemrograman JavaScript**, meliputi operasi aritmatika, percabangan `if...else`, dan `switch`.
 * **Operasi Aritmatika**
