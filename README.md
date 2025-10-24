@@ -62,9 +62,8 @@ Membuat File baru HTML dengan nama `dasar_javascript.html`
 </body>
 </html>
 
-Kode HTML ini digunakan untuk memperkenalkan dasar-dasar **JavaScript** dengan beberapa contoh fungsinya. Pada bagian `<head>`, terdapat elemen `<meta charset="UTF-8">` untuk mendukung karakter UTF-8, dan `<title>` yang memberikan judul halaman “JavaScript Dasar”.
 
-Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa contoh penggunaan JavaScript:
+Kode HTML ini digunakan untuk memperkenalkan dasar-dasar **JavaScript** dengan beberapa contoh fungsinya. Pada bagian `<head>`, terdapat elemen `<meta charset="UTF-8">` untuk mendukung karakter UTF-8, dan `<title>` yang memberikan judul halaman “JavaScript Dasar”. Bagian utama program berada di dalam elemen `<script>`, yang berisi beberapa contoh penggunaan JavaScript:
 
 * **Pemakaian Alert**
    Baris `alert("Halo! Ini contoh penggunaan alert di JavaScript.");` menampilkan jendela pop-up (kotak peringatan) di browser yang berisi pesan teks. Fungsi ini berguna untuk memberi informasi singkat kepada pengguna.
